@@ -17,7 +17,11 @@
   }
   
   .nav-list {
+    
     display: flex;
     margin-right: 2rem;
   }
-  
+  body{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
