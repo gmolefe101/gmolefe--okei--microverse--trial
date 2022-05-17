@@ -8,28 +8,42 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+   <div>
     <nav id="navbar">
-      <li class="nav-list"><a href="#profile-link" >About</a></li>
-      <li class="nav-list"><a href="portfolio.html">Work</a></li>
-      <li class="nav-list"><a href="contact.html">Contact</a></li>
+      <li class="nav-list"><a href="#welcome-section" >About</a></li>
+      <li class="nav-list"><a href="#projects">Work</a></li>
+      <li class="nav-list"><a href="#contacts">Contact</a></li>
     </nav>
+  </div>
 
-    <section>
-
-    </section>
-
-    <section id="welcome-section">
+    
+  <section id="welcome-section" class="welcome-section">
+    <div>
        <h1>Hey I am Okei</h1>
+       <p>I'm a web developer</p>
+    </div>
+  </section>
+
+    <section id="projects" class="project-section">
+        <div >
+        <h2 class="project-section-header">Here are some of Our Projects</h2>
+        <p>check them out!</p>
+      </div>
+      <div class="projects-grid">
+       <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="projects">
+       <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="projects">
+       <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="projects">
+      </div>
     </section>
 
-    <section id="projects">
+  
+  <section id="contacts" class="contact-section">
+    <div id="contact-link" class="contact-link">
+    <h2>Let's create for you your dream websites</h2>
+    <p>Contact us let work together</p>
+    <a id="profile-link" href="https://github.com/gmolefe101/gmolefe--okei--microverse--trial" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub Profile</a>
 
-      <a href="#" >Link to repo
-          <img src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/6240845dc55a4753ac98fb41_woman-hero-693.png"  alt="Portfolio-Project-Woman" />
-      </a>
-      <p class="project-tile"><a href="https://github.com/gmolefe101/gmolefe--okei--microverse--trial" id="profile-link" target="_blank">Repository Portfolio</a></p>
+    </div>
   </section>
 
     <script  src="js/index.js"></script>
